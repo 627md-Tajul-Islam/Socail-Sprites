@@ -1,0 +1,154 @@
+.icons{
+   overflow: hidden;
+}
+.icons ul{
+   margin: 0;
+   padding: 0;
+}
+.icons ul li{
+   list-style-type: none;
+   float: left;
+   margin-right:10px ;
+}
+.icons ul li:last-child{
+   margin: 0;
+}
+.icons ul li a{
+  background-image: url('sprite-icon-29.png');
+  height: 84px;
+  width: 84px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  border-radius: 50%;
+  transition: 1s;
+  background-position: 0px 0px;
+}
+.icons ul li:hover:nth-child(1) a{
+   background-position: 0px -84px;
+}
+.icons ul li:nth-child(2) a{
+   background-position: -83px 0px;
+}
+.icons ul li:hover:nth-child(2) a{
+   background-position: -83px -84px;
+}
+.icons ul li:nth-child(3) a{
+   background-position: -167px 0px;
+}
+.icons ul li:hover:nth-child(3) a{
+   background-position: -168px -85px;
+}
+.icons ul li:nth-child(4) a{
+   background-position: -249px 0px;
+}
+.icons ul li:hover:nth-child(4) a{
+   background-position: -252px -84px;
+}
+.icons ul li:nth-child(5) a{
+   background-position: -335px 0px;
+}
+.icons ul li:hover:nth-child(5) a{
+   background-position: -335px -84px;
+}
+.icons ul li:nth-child(6) a{
+   background-position: -421px 0px;
+}
+.icons ul li:hover:nth-child(6) a{
+   background-position: -420px -84px;
+}
+.icons ul li:nth-child(7) a{
+   background-position: -499px 0px;
+}
+.icons ul li:hover:nth-child(7) a{
+   background-position: -506px -84px;
+}
+.icons ul li:nth-child(8) a{
+   background-position: -589px 0px;
+}
+.icons ul li:hover:nth-child(8) a{
+   background-position: -589px -84px;
+}
+.icons ul li:nth-child(9) a{
+   background-position: -671px 0px;
+}
+.icons ul li:hover:nth-child(9) a{
+   background-position: -671px -84px;
+}
+.icons ul li:nth-child(10) a{
+   background-position: -756px 0px;
+}
+.icons ul li:hover:nth-child(10) a{
+   background-position: -756px -84px;
+}
+.icons ul li:nth-child(11) a{
+   background-position: -839px 0px;
+}
+.icons ul li:hover:nth-child(11) a{
+   background-position: -839px -84px;
+}
+
+.shadow{
+   font-size: 90px;
+   text-align: center;
+   text-shadow: 5px 6px #028142 ;
+}
+.bs{
+text-align: center;
+margin: auto;
+width: 500px;
+border: 1px solid #d4d4d4;
+}
+.bs img{
+   width: 100%;
+}
+.bs:hover{
+   box-shadow: 4px 8px 10px rgba(0,0, 0, 0.2), -5px 5px 10px rgba(0,0,0, 0.2);
+}
+.pht{
+   overflow: hidden;
+}
+.no1{
+   width: 20%;
+   height: auto;
+   float: left;
+}
+.blur{
+   width: 20%;
+   height: auto;
+   float: left;
+   filter: blur(2px);
+}
+.brightness{
+   width: 20%;
+   height: auto;
+   float: left;
+   filter: brightness(150%);
+}
+.contrast{
+   width: 20%;
+   height: auto;
+   float: left;
+   filter: contrast(150%);
+}
+.grayscale{
+   width: 20%;
+   height: auto;
+   float: left;
+   filter: grayscale(100%);
+}
+.grid_container{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   background-color: black;
+   padding: 10px;
+   grid-column-gap: 20px;
+   grid-row-gap: 20px ;
+}
+.grid_item{
+   font-size: 30px;
+   color: white;
+   padding: 10px;
+   border: 1px solid white;
+   text-align: center;
+}
